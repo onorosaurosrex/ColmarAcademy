@@ -17,7 +17,7 @@ SEMANTIC ELEMENTS
     <summary>
     <time>
  */
- */
+/* */
  */
 
 
@@ -25,3 +25,9 @@ SEMANTIC ELEMENTS
   width: 100vw; /*Sets the width of the actual viewport to the device width*/
 }
  */
+
+@media screen and (max-width: 767px){
+    #main-img{
+        content:url("img/mobile_homepage.jpg");
+    }
+}

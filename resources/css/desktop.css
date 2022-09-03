@@ -1,0 +1,339 @@
+@media only screen and (orientation: landscape), (min-device-width: 540px) {
+    /**************************/
+    /* HERE ELEMENTS DISAPPEAR*/
+    /**************************/
+    nav .navMobile,
+    #articleLinks,
+    #programLinks,
+    #videoSection {
+        display: none;
+    }
+
+    nav {
+        height: 64px;
+    }
+
+    /*************************************/
+    /* HERE BEGINS THE NAVIGATION HEADER */
+    /*************************************/
+    nav,
+    header,
+    #articleLinks,
+    #programLinks,
+    #videoSection,
+    footer {
+        width: 100%;
+    }
+
+    #desktopNavigation {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 24px 0 24px;
+        /*border: 1px solid blue;*/
+        height: 100%;
+        align-items: center;
+    }
+
+    #logoDesktop {
+        display: flex;
+        /*border:1px blue solid;*/
+        align-items: center;
+    }
+
+    #logoDesktop img,
+    #logoDesktop h1,
+    #logoDesktop h2 {
+        display: block;
+    }
+
+    #logoDesktop h1 {
+        margin-left: 10px;
+        font-family: Seravek;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #logoDesktop h2 {
+        font-family: Seravek;
+        font-weight: normal;
+        font-size: 20px;
+        color: grey;
+    }
+
+    #logoDesktop img {
+
+        height: 32px;
+    }
+
+    nav ul {
+        display: flex;
+        height: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        /*border: 1px blue solid;*/
+        gap: 16px;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    nav a {
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        text-decoration-line: none;
+        color: black;
+    }
+
+    /*******************************************/
+    /* HERE BEGINS THE START PRACTICING HEADER */
+    /*******************************************/
+    header {
+        /*width: 100%;*/
+        background-color: #d8d8d8;
+        gap: 0;
+        font-size: 0;
+    }
+
+    #firstLevel {
+        display: flex;
+        align-items: center;
+    }
+
+    #firstLevel #banner {
+        width: 60%;
+        padding: 3.1vw 2.44vw;
+    }
+
+    #firstLevel #banner img {
+        width: 100%;
+    }
+
+    #firstLevel #startHere {
+        width: 30%;
+    }
+
+    #firstLevel #startHere h1,
+    .leftContainer h1 {
+        font-family: 'Lato', sans-serif;
+        line-height: 1.1;
+        font-size: 4vw;
+        text-align: left;
+    }
+
+    #firstLevel #startHere h2 {
+        margin-top: 2vw;
+        font-family: Seravek;
+        font-size: 1.8vw;
+        font-weight: normal;
+        text-align: left;
+    }
+
+    #firstLevel #headerButton {
+        margin-top: 5vw;
+        width: 100%;
+        height: 5vw;
+        font-family: 'Lato', sans-serif;
+        font-size: 2vw;
+        background-color: #9b9b9b;
+    }
+
+    /****************************************************/
+    /* HERE SECONDSECTION DIFFERING FROM MOBLIE EDITION */
+    /****************************************************/
+    .desktopMain {
+        display: flex;
+        width: 100%;
+    }
+
+    .leftSide {
+        width: 60%;
+        padding: 3.1vw 2.44vw;
+    }
+
+    .leftContainer {
+        width: 100%;
+    }
+
+    .leftContainer img {
+        width: 100%;
+    }
+
+    .leftContainer .leftTextContainer h1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 3.5vw;
+    }
+
+    .leftContainer .leftTextContainer p {
+        font-size: 2vw;
+        font-family: Seravek;
+        width: 90%;
+    }
+
+    .leftTextContainer {
+        padding: 3.1vw 0 3.1vw 0;
+    }
+
+    .rightSide {
+        border-left: 1px solid #d8d8d8;
+        width: 40%;
+        padding: 1.55vw 0 0 0;
+        display: flex;
+    }
+
+    .rightSide .articleContainer {
+        display: flex;
+        padding: 1.55vw 0 1.55vw 1.55vw;
+    }
+
+    .rightSide .articleContainer img {
+        width: 35%;
+    }
+
+    .rightSide .articleHeader {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1.55vw;
+    }
+
+    .rightSide .articleHeader h2 {
+        font-family: 'Lato', sans-serif;
+        font-size: 2vw;
+    }
+
+    .rightSide .articleHeader p {
+        margin-top: 0.775vw;
+        width: 70%;
+        font-family: Seravek;
+        font-weight: lighter;
+        font-size: 1.5vw;
+    }
+
+    .rightSide .articleHeader a {
+        margin-top: 0.775vw;
+        width: 70%;
+        font-family: Seravek;
+        font-weight: lighter;
+        font-size: 1.5vw;
+    }
+
+    .leftContainer h1 {
+        margin-top: 3.1vw;
+    }
+
+    .leftContainer p {
+        margin-top: 2.5vw;
+    }
+
+    #ourCampus {
+        background-color: #d8d8d8;
+    }
+
+    .leftTextContainer .author {
+        font-family: Seravek;
+        font-size: 1.5vw !important;
+    }
+
+    /***************************************/
+    /* FLEXBOX START LEARNING STARTS HERE  */
+    /***************************************/
+    #desktopStartLearning {
+        padding: 3.1vw 6.2vw;
+        background-color: #eaebec;
+    }
+
+    .desktopStartLearningFlexBox {
+        margin-top: 3.1vw;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3.1vw;
+    }
+
+    .desktopBlockProgramContainer {
+        width: 30%;
+        background-color: white;
+        /*min-width: 250px;*/
+
+    }
+
+    .desktopBlockProgramContainer .programImage img {
+        width: 100%;
+    }
+
+    .desktopBlockProgramContainer .textContainer {
+        padding: 1.55vw;
+    }
+
+    .desktopBlockProgramContainer .textContainer h2 {
+        font-family: 'Lato', sans-serif;
+        font-size: 2vw;
+    }
+
+    .desktopBlockProgramContainer .textContainer p {
+        margin-top: 1.55vw;
+        width: 85%;
+        font-family: Seravek;
+        font-weight: lighter;
+        font-size: 1.5vw;
+    }
+
+    #desktopStartLearning h1 {
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 3.5vw;
+    }
+
+    .desktopVideoContainer {
+        display: flex;
+    }
+
+    #desktopVideo {
+        font-family: 'Lato', sans-serif;
+        font-size: 3.5vw;
+        padding-top: 3.1vw;
+    }
+
+    #desktopVideo h1 {
+        text-align: center;
+    }
+
+    #fisma {
+        background-color: #eaebec;
+    }
+    #desktopVideo .leftTextContainer h2 {
+        /*margin-top: 1.55vw;*/
+        text-align: left!important;
+        font-size: 2vw;
+    }
+    .desktopVideoContainer .rightSide {
+        border: none;
+    }
+    /*************************/
+    /* HERE COMES THE FOOTER */
+    /*************************/
+    footer {
+
+
+    }
+    footer ul li{
+        display: inline-block;
+    }
+    #footerContainer {
+        border-top: 1px solid #d8d8d8;
+        font-family: Seravek;
+        padding: 1.55vw 2.1vw 0 1.55vw ;
+        display: flex;
+        justify-content: space-between;
+        height: 4.1vw;
+    }
+    #footerContainer ul a {
+        margin-left: 0.5vw;
+        text-decoration: none;
+        color: black;
+    }
+}
+

@@ -1,0 +1,187 @@
+@media only screen and (orientation: portrait) and (max-device-width:540px) {
+    html,body,main {
+    width:100%;
+    }
+    /**************************/
+    /* HERE ELEMENTS DISAPPEAR*/
+    /**************************/
+
+    .navDesktop,
+    #logoDesktop,
+    #bannerDesktop,
+    .desktopMain,
+    #desktopNavigation,
+    #desktopStartLearning,
+    #desktopVideo {
+        display: none;
+    }
+
+    /*********************/
+    /*HEADER STARTS HERE */
+    /*********************/
+
+    header {
+        /*height: auto;*/
+    }
+    nav {
+        display: flex;
+        height: 20vw;
+        width: 100%;
+        position: fixed;
+        background-color: white;
+    }
+    nav ul {
+        display: flex;
+        height: 20vw;
+        width:100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav ul img {
+        margin-top: 2vw;
+        display: block;
+        width: 10vw;
+    }
+    #banner {
+        padding-top: 20vw;
+        width: 100%;
+    }
+    header img {
+        display: block;
+        width: 100%;
+    }
+
+    #startHere {
+        margin-top: 0;
+        padding: 10vw 5vw;
+        background-color: #dbdbdb;
+    }
+    #startHere h1,
+    #programLinks h1,
+    #videoSection h1 {
+        font-family: 'Lato', sans-serif;
+        line-height: 1.1;
+        font-size: 10vw;
+        text-align: center;
+        /*margin: 10vw 5vw 0 5vw;*/
+        /*border: 1px solid red;*/
+        width: 100%;
+    }
+   #startHere h2,
+   #articleLinks .articleHeader h2 {
+       font-family: 'PT Sans Narrow', sans-serif;
+       font-size: 7vw;
+       margin-top: 5vw;
+       /*margin: 7vw 5vw 0 5vw;*/
+    }
+   #headerButton {
+       margin-top: 7.5vw;
+       width: 100%;
+       height: 12.5vw;
+       font-family: 'Lato', sans-serif;
+       font-size: 6vw;
+       background-color: #9b9b9b;
+   }
+    /********************************/
+    /* ARTICLES SECTION STARTS HERE */
+    /********************************/
+
+    #articleLinks article p {
+        font-family: 'PT Sans Narrow', sans-serif;
+        /*font-size: 4.5vw;*/
+    }
+
+    #articleLinks {
+        flex-direction: column;
+        justify-content: center;
+        margin: 5vw auto 0 auto;
+        width: 90%;
+        /*border: 1px solid purple;*/
+    }
+
+    #orientationDate {
+        /*background-color: blue;*/
+        /*height: 30vw;*/
+        width: 100%;
+    }
+    #articleLinks img {
+        width: 100%;
+        /*border: 1px solid green;*/
+    }
+
+    #articleLinks article {
+        /*position: relative;*/
+        /*margin-right:5vw;
+        margin-left: 5vw;*/
+        width:100%;
+        /*border: 1px solid green;*/
+    }
+    .articleHeader {
+        padding: 5vw 5vw 10vw 5vw;
+    }
+    .articleHeader p {
+        margin-top: 5vw;
+        display: block;
+    }
+    .articleHeader a {
+        display: block;
+        margin-top: 5vw;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 6vw;
+        }
+
+    /*************************/
+    /* PROGRAM LINKS SECTION */
+    /*************************/
+    #buttons {
+        margin: 5vw auto 0 auto;
+
+    }
+    #programLinks {
+        width:90%;
+        padding:7.5vw 5vw 10vw 5vw;
+        border-top: 1px solid #9b9b9b;
+
+    }
+    .programButton {
+        margin-top: 5vw;
+        width: 100%;
+        background-color: #d8d8d8;
+        height: 17.5vw;
+        font-family: 'Lato', sans-serif;
+        font-size: 6vw;
+    }
+    /******************************/
+    /* THESIS EXIBITS STARTS HERE */
+    /******************************/
+    #videoSection {
+        width: 100%;
+        border-top: 1px solid #9b9b9b;
+        padding: 10vw 0 7.5vw 0;
+    }
+
+    #videoSection h1 {
+        text-align: center;
+        width: 90%;
+        margin: 0 5vw;
+    }
+    #videoSection video {
+        margin: 5vw 0 5vw 0;
+    }
+
+    footer {
+        position: static;
+        height: 10vw;
+        /*padding: 5vw;*/
+        z-index: 100;
+    }
+    footer p {
+        width: 90%;
+        margin: 6vw auto 0 auto;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+}
+
+
+
+

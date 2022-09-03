@@ -5,29 +5,254 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.typekit.net/hae1lko.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Lato:wght@700&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
     <link href="resources/css/phone.css" rel="stylesheet" type="text/css">
     <link href="resources/css/tablet.css" rel="stylesheet" type="text/css">
     <link href="resources/css/desktop.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
 
-    <title>ColmarAcademy</title>
+    <title>Colmar Academy</title>
 </head>
 <body>
+    <!-- HERE THE NAVIGATION BAR INSIDE HEADER-->
+    <nav>
+        <div id="desktopNavigation">
+            <div id="logoDesktop">
+                <img src="resources/images/ic-logo2.svg">
+                <h1>COLMAR</h1>
+                <h2>ACADEMY</h2>
+            </div>
+            <ul class="navDesktop">
+                <li><a href="#">On campus</a></li>
+                <li><a href="#">Online</a></li>
+                <li><a href="#">For companies</a></li>
+                <li><a href="#">Sign in</a></li>
+            </ul>
+        </div>
+        <ul class="navMobile">
+            <li><a href="#"><img src="resources/images/ic-logo.svg"></a></li>
+            <li><a href="#"><img src="resources/images/ic-on-campus.svg"></a></li>
+            <li><a href="#"><img src="resources/images/ic-online.svg"></a></li>
+            <li><a href="#"><img src="resources/images/ic-login.svg"></a></li>
+        </ul>
+    </nav>
     <!-- HEADER WILL INCLUDE NAVIGATION BAR, A BANNER AND TITTLE FOR PAGE-->
     <header>
-        <nav>
-        </nav>
-        <div id="banner">
-
-        </div>
-        <div id="mainTitle">
-
+        <div id="firstLevel">
+            <!-- WE PUT THE BANNER IMAGE INSIDE A DIV -->
+            <div id="banner">
+                <img src="resources/images/banner.jpg">
+                <!-- INSIDE STARTHERE WE PUT TEXT AND BUTTONS THAT WILL BE BETWEEN PADDING RULE -->
+            </div>
+            <div id="startHere">
+                <h1>Learn something new everyday</h1>
+                <h2>Aquí tenemos ocho palabras, de prueba para la página.</h2>
+                <a href="#"><button type="button" id="headerButton">Start here</button></a>
+            </div>
         </div>
     </header>
+    <!-- MAIN WILL INCLUDE 3 SECTIONS BEFORE GOING TO FOOTER -->
     <main>
-        
+        <!--ARTICLE LINKS INCLUDES AL 3 SECTIONS FOR LINKS -->
+        <div class="desktopMain">
+            <div class="leftSide">
+                <div class="leftContainer">
+                    <img src="resources/images/information-main.jpg">
+                    <div class="leftTextContainer">
+                        <h1>It doesn't hurt to keep practicing</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id mollitia rem repellendus tempore vero.
+                            Ab delectus dolores quod sit suscipit. Delectus illo, minus optio placeat quia tempora.
+                            Illum, non, tempora.
+                        </p>
+                        <p class="author">Emanuel, Sr Strategist at Hiring.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSide">
+                <section id="rightContainer">
+                    <article id="orientationDate" class="articleContainer">
+                        <img src="resources/images/information-orientation.jpg" alt="people seen from above in a campus">
+                        <div class="articleHeader">
+                            <h2>Orientation date</h2>
+                            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article>
+                    <article id="specialGuest" class="articleContainer">
+                        <img src="resources/images/information-campus.jpg">
+                        <div class="articleHeader">
+                            <h2>Our campus</h2>
+                            <p>Find which campus is close by you</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article>
+                    <article id="ourCampus" class="articleContainer">
+                        <img src="resources/images/information-guest-lecture.jpg">
+                        <div class="articleHeader">
+                            <h2>Special guest lecture</h2>
+                            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                            <a href="#">Read more</a>
+                        </div>
+                    </article>
+
+                </section>
+            </div>
+        </div>
+            <section id="articleLinks">
+                <article id="orientationDate">
+                    <img src="resources/images/information-orientation-mobile.jpg" alt="people seen from above in a campus">
+                    <div class="articleHeader">
+                        <h2>Orientation date</h2>
+                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </article>
+                <article id="ourCampus">
+                    <img src="resources/images/information-guest-lecture-mobile.jpg">
+                    <div class="articleHeader">
+                        <h2>Our campus</h2>
+                        <p>Find which campus is close by you</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </article>
+                <article id="specialGuest">
+                    <img src="resources/images/information-campus-mobile.jpg">
+                    <div class="articleHeader">
+                        <h2>Special guest lecture</h2>
+                        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </article>
+
+            </section>
+        </div>
+        <!-- PROGRAM LINKS HAVE BUTTONS TO OTHER PROGRAMS -->
+        <section id="desktopStartLearning">
+            <h1> Start learning</h1>
+            <div class="desktopStartLearningFlexBox">
+                <div class="desktopBlockProgramContainer">
+                    <div class="programImage"><img src="resources/images/course-software.jpg"></div>
+                    <div class="textContainer">
+                        <h2>Software engineering</h2>
+                        <p class="programClass">COURSES</p>
+                        <p>Web Development, Mobile Development, iOT, APIs</p>
+                    </div>
+                </div>
+                <div class="desktopBlockProgramContainer">
+                    <div class="programImage"><img src="resources/images/course-computer-art.jpg"></div>
+                    <div class="textContainer">
+                        <h2>Computer Art</h2>
+                        <p class="programClass">COURSES</p>
+                        <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                    </div>
+                </div>
+                <div class="desktopBlockProgramContainer">
+                    <div class="programImage"><img src="resources/images/course-design.jpg"></div>
+                    <div class="textContainer">
+                        <h2>Design</h2>
+                        <p class="programClass">COURSES</p>
+                        <p>User Experience Design, User Research, Visual Design</p>
+                    </div>
+                </div>
+                <div class="desktopBlockProgramContainer">
+                    <div class="programImage"><img src="resources/images/course-data.jpg"></div>
+                    <div class="textContainer">
+                        <h2>Data</h2>
+                        <p class="programClass">COURSES</p>
+                        <p>Data Science, Big Data, SQL, Data Visualization</p>
+                    </div>
+                </div>
+                <div class="desktopBlockProgramContainer">
+                    <div class="programImage"><img src="resources/images/course-business.jpg"></div>
+                    <div class="textContainer">
+                        <h2>Business</h2>
+                        <p class="programClass">COURSES</p>
+                        <p>Product Development, Business Development, Startup</p>
+                    </div>
+                </div>
+                <div class="desktopBlockProgramContainer">
+                    <div class="programImage"><img src="resources/images/course-marketing.jpg"></div>
+                    <div class="textContainer">
+                        <h2>Marketing</h2>
+                        <p class="programClass">COURSES</p>
+                        <p>Analytics, Content Marketing, Mobile Marketing</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="programLinks">
+            <h1>Start learning</h1>
+            <div id="buttons">
+                <a href="#"><button type="button" class="programButton">Software Engineering</button></a>
+                <a href="#"><button type="button" class="programButton">Computer Art</button></a>
+                <a href="#"><button type="button" class="programButton">Design</button></a>
+                <a href="#"><button type="button" class="programButton">Data</button></a>
+                <a href="#"><button type="button" class="programButton">Business</button></a>
+                <a href="#"><button type="button" class="programButton">Marketing</button></a>
+            </div>
+        </section>
+        <section id="videoSection">
+            <h1>Thesis Exhibits</h1>
+            <video width="100%" controls>
+                    <source src="/resources/videos/thesis.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+            </video>
+        </section>
+        <!-- NEW VIDEO SECTION NEXT FOR DESKTOP -->
+        <section id="desktopVideo">
+            <h1>Thesis exhibit</h1>
+            <div class="desktopVideoContainer">
+            <div class="leftSide">
+                <div class="leftContainer">
+                    <video width="100%" controls>
+                        <source src="/resources/videos/thesis.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="leftTextContainer">
+                        <h2>Reimagine urban</h2>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id mollitia rem repellendus tempore vero.
+                            Ab delectus dolores quod sit suscipit. Delectus illo, minus optio placeat quia tempora.
+                            Illum, non, tempora."
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+                <div class="rightSide">
+                    <section id="rightContainer">
+                        <article id="fisma" class="articleContainer">
+                            <img src="resources/images/thesis-fisma.jpg" alt="people seen from above in a campus">
+                            <div class="articleHeader">
+                                <h2>Fisma: Design and Prototype</h2>
+                                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </article>
+                        <article id="nowAndThen" class="articleContainer">
+                            <img src="resources/images/thesis-now-and-then.jpg">
+                            <div class="articleHeader">
+                                <h2>Now and then</h2>
+                                <p>Find which campus is close by you</p>
+                                <a href="#">Read more</a>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div id="footerContainer">
+        <p>©2016 Colmar Academy. All rights reserved.</p>
+        <ul class="terms">
+            <a href="#"><li>Terms</li></a>
+            <a href="#"><li>Privacy</li></a>
+        </ul>
+        </div>
     </footer>
 
 </body>
