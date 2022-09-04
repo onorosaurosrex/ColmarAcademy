@@ -12,7 +12,8 @@
     .desktopMain,
     #desktopNavigation,
     #desktopStartLearning,
-    #desktopVideo {
+    #desktopVideo,
+    #footerContainer ul {
         display: none;
     }
 
